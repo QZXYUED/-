@@ -1,0 +1,25 @@
+div p a{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+  width:90%;
+  margin: 0 auto;
+}
+
+.test-1{
+    width: 70%;
+    margin: 5% auto;
+    background: red;
+}
+
+.test-2{
+    width:30%;
+    margin-left:20%;
+}
+
+a{
+    font-size: 36px;
+    background: blueviolet;
+}
