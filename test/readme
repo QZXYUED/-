@@ -1,0 +1,4 @@
+#此为css3测试模板，其中必要语法
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css路径" media="screen and (max-width: 500px)">
+#手机端以max-width:500px，ipad端以max-width:800px min-width:501px
