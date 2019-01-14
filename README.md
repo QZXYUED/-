@@ -128,6 +128,10 @@ _清泽心雨网站是太原理工大学学生工作的门户网站_ &emsp;详�
 * [vpn下载地址](https://www.forticlient.com/downloads)
 * vpn配置详情见群公告
 
+# 站员上传说明
+* 上传各自模板前首先上传到测试服务器就行兼容性测试，待负责人同意最终版本后上传
+* 上传css目录为static/css/moblie下对应的文件夹
+* 原则上不能删改html结构，采用css3就行布局调整
 # 负责人联系邮箱 <br>
 tyutjohnwang@163.com <br>
 公共邮箱 tyutued@163.com <br>
