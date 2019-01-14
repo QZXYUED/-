@@ -1,5 +1,5 @@
 # 清泽心雨UED改版主页 --2019
-_清泽心雨网站是太原理工大学学生工作的门户网站_ &emsp;详情请见太原理工大学官网（http://www2017.tyut.edu.cn/）&emsp;清泽心雨官网（http://qzxy.tyut.edu.cn/）<br>
+_清泽心雨网站是太原理工大学学生工作的门户网站_ &emsp;详情请见太原理工大学官网（http://www2017.tyut.edu.cn/）清泽心雨官网（http://qzxy.tyut.edu.cn/）<br>
 项目负责 清泽心雨UED（技术开发部）
 # 工作说明
   * 改版工作前请详细阅读此文档
