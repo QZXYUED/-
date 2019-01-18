@@ -113,18 +113,16 @@
 }
 .columnName > a:first-child {
 	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 4.2rem;
 	font-family: "Microsoft YaHei";
-	color: rgb(74, 74, 81);
+	color: rgb(215, 30, 9);
 	line-height: 30px;
-	line-height: 3rem;
-	padding: 0 2px 4px;
-	margin-bottom: -2px;
-	height: 30px;
+	line-height: 1rem;
+	padding: 2px 2px 4px;
+	margin-bottom: 1px;
 	height: 3rem;
 	display: inline-block;
-	border-bottom: 2px solid rgb(137, 22, 25);
-	border-bottom: 0.2rem solid rgb(137, 22, 25);
+	border-bottom: 0.2rem solid rgb(185, 6, 10);
 }
 .columnName > a:first-child:hover {
 	color: rgb(123, 19, 0);
@@ -172,7 +170,7 @@ div.qzNews {
 }
 .qzNews .container .columnContainer .newsItem {
 	display: block;
-	padding: 8px;
+	padding: 11px;
 	margin-left: 10px;
 	border-bottom: 1px solid #eee;
 	height: 60px;
@@ -200,7 +198,7 @@ div.qzNews {
 	display: inline-block;
 	vertical-align: top;
 
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: bold;
 	color: #333;
 	white-space: normal;
@@ -934,3 +932,4 @@ a img {
 	-webkit-transition: opacity .3s ease-in-out;
 	transition: opacity .3s ease-in-out;
 }
+
