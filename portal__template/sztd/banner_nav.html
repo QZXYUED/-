@@ -36,5 +36,13 @@
         </div>
     </nav>
 </body>
-
+<script>
+        $(document).ready(function () {
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth < setWidth) {
+                $(".o__nav").css("display", "none");
+            }
+        })
+    </script>
 </html>
