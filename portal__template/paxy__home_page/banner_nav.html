@@ -21,6 +21,8 @@
     <script src="../../static/js/lightslider.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../static/css/skin/portal/paxy.css">
     <link rel="stylesheet" href="../../static/css/lightslider.min.css">
+    <link rel="stylesheet" href="../../static/css/mobile/m_portal/m_portal_paxy.css" media="screen and (max-width:500px)">
+
 </head>
 
 <body>
@@ -39,6 +41,15 @@
             </div>
         </div>
     </nav>
+        <script>
+        $(document).ready(function () {
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth < setWidth) {
+                $(".o__nav").css("display", "none");
+            }
+        })
+    </script>
 </body>
 
 </html>
