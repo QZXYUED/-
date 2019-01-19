@@ -1,8 +1,6 @@
-.columnName .more{
-    display: none;
-}
-
 .columnName > a:first-child {
     font-size: 30px;
     height: 5rem;
+    border-bottom:none;
 }
+
