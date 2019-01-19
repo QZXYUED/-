@@ -1,0 +1,21 @@
+body{
+    margin: 6px;
+}
+.m_ctwh_listContentItem__info{
+    display: inline-block;
+}
+
+.m_ctwh_listContentItem__info_right{
+    display: inline-block;
+    margin-left: 66px;
+}
+
+.m_ctwh_listContentItem__info-left{
+    display: inline-block;
+}
+
+.prise{
+    border-radius: 15px;
+    width: 60px;
+    float: right;
+}
