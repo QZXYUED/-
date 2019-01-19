@@ -1,0 +1,19 @@
+.m-common{
+    position: relative;
+    left: 2%;
+}
+.m-photo{
+    border-radius: 50px;
+}
+.m-icon{
+    color:#bfb9b9 ;
+    position: absolute;
+    right: 3%;
+}
+.m-icons {
+    float: right;
+}
+
+.one p{
+    margin-top: 60px;
+  }
