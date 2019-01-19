@@ -1,0 +1,49 @@
+.m__background
+{
+    background: black;
+}
+.m__headline
+{
+    margin: 10px;
+    font-size: 18px;
+}
+.m__text
+{
+    padding: 10px;
+}
+.m__picture
+{
+    border-radius: 10px;
+    margin-left:5px;
+}
+.m__button
+{
+    margin-left: 290px;
+    margin-top: -20px;
+    width: 60px;
+    border-radius: 20px;
+}
+.m__signs
+{
+    float: left;
+    margin: 10px;
+}
+.m__sign
+{
+    float: right;
+    margin: 10px;
+    margin-top: -14px;
+}
+
+p{
+    margin-block-start: 1em !important;
+}
+
+.m-xygj{
+    width:94%;
+    margin: 0 auto;
+}
+
+.m__h6{
+    font-size: 12px;
+}
