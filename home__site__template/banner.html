@@ -1,98 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>flati | responsive html5 template | themeforest | josweb</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<link href="../static/css/mobile/m_home/font-awesome.min.css">
-<link href="../static/css/mobile/m_home//theme.css" rel="stylesheet">
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+	<meta charset="utf-8">
+	<title>flati | responsive html5 template | themeforest | josweb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="../static/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../static/css/mobile/m_home/theme.css" rel="stylesheet">
+	<link href="../static/css/mobile/m_home/settings.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<!--header-->
-
-
-
-	<!--page-->
-		<!-- REVOLUTION SLIDER -->
-        <div class="fullwidthbanner-container">
-        	<div class="fullwidthbanner">
-		<ul>
-		<!-- Slide 1 -->
-			<li data-transition="slideright">
-				<img src="../data/catch/temp/img/20180503/aac40a8b1100864070aa27ba72161923.jpg" alt="" />
-				<!-- Caption
-				<div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700" data-easing="easeOutExpo">
-					<h3 class="rev-title bold">FLATI BOOTSTRAP</h3>
-				</div>
-				
-				<div class="caption lfl stl rev-title-sub" data-x="center" data-y="240" data-speed="800" data-start="1100" data-easing="easeOutExpo">
-					CREATE - DESIGN - CODE
-				</div>-->
-
-			</li>
-			
-			<!-- Slide 2 -->
+	<div class="fullwidthbanner-container">
+		<div class="fullwidthbanner">
+			<ul>
+				<li data-transition="slideright">
+					<img src="../data/catch/temp/img/20180503/aac40a8b1100864070aa27ba72161923.jpg" alt="" />
+				</li>
 				<li data-transition="slideleft">
-				<img src="../data/catch/temp/img/20171130/0f9f3b574d217749428c4bafcf08664d.jpg" alt="" />
-
-			</li>
-			
-			<!-- Slide 3 -->
-				<li data-transition="slideleft" >
-				<img src="../data/catch/temp/img/20180411/60fb06abe0d4bc97a7b91c7fd6421ac3.jpg" alt="" />
-			</li>
-			
-			<!-- Slide 4 -->
+					<img src="../data/catch/temp/img/20171130/0f9f3b574d217749428c4bafcf08664d.jpg" alt="" />
+				</li>
+				<li data-transition="slideleft">
+					<img src="../data/catch/temp/img/20180411/60fb06abe0d4bc97a7b91c7fd6421ac3.jpg" alt="" />
+				</li>
 				<li data-transition="slidedown">
-				<img src="../data/catch/temp/img/20180315/8c15f80a4c2f75cb58aed68fbead5247.jpg" alt="" />
-
-			</li>
-            <!-- Slide 5 -->
-            <li data-transition="slidedown">
-                <img src="../data/catch/temp/img/20180411/2e40bb49951855bf216413dcd21487df.jpg" alt="" />
-
-            </li>
-		</ul>
+					<img src="../data/catch/temp/img/20180315/8c15f80a4c2f75cb58aed68fbead5247.jpg" alt="" />
+				</li>
+				<li data-transition="slidedown">
+					<img src="../data/catch/temp/img/20180411/2e40bb49951855bf216413dcd21487df.jpg" alt="" />
+				</li>
+			</ul>
 			<div class="tp-bannertimer tp-bottom"></div>
-            </div>
-        </div>
-        <!-- // END REVOLUTION SLIDER -->
-				<!--//banner-->
-<!-- SCRIPTS -->
-
-<script src="../static/lib/jquery/jquery.js"></script>
-<script type="text/javascript" src="../static/js/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="../static/js/jquery.themepunch.plugins.min.js"></script>
-<!-- slider settings -->
-<script>
-	//<![CDATA[
-    $(document).ready(function() {
-	if ($.fn.cssOriginal!=undefined)
-	$.fn.css = $.fn.cssOriginal;
-	$('.fullwidthbanner').revolution(
-		{
-			delay:9000,
-			startwidth:1170,
-			startheight:420,
-			onHoverStop:"on",
-			navigationType:"none",
-			soloArrowLeftHOffset:0,
-			soloArrowLeftVOffset:0,
-			soloArrowRightHOffset:0,
-			soloArrowRightVOffset:0,
-			touchenabled:"on",
-			fullWidth:"on",
-			shadow:0
+		</div>
+	</div>
+	<script type="text/javascript" src="../static/lib/jquery/jquery.js"></script>
+	<script type="text/javascript" src="../static/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="../static/js/jquery.themepunch.plugins.min.js"></script>
+	<script>
+		//<![CDATA[
+		$(document).ready(function () {
+			if ($.fn.cssOriginal != undefined)
+				$.fn.css = $.fn.cssOriginal;
+			$('.fullwidthbanner').revolution({
+				delay: 9000,
+				startwidth: 1170,
+				startheight: 420,
+				onHoverStop: "on",
+				navigationType: "none",
+				soloArrowLeftHOffset: 0,
+				soloArrowLeftVOffset: 0,
+				soloArrowRightHOffset: 0,
+				soloArrowRightVOffset: 0,
+				touchenabled: "on",
+				fullWidth: "on",
+				shadow: 0
+			});
 		});
-	});
-//]]>
-</script>
+		//]]>
+	</script>
 
 </body>
+
 </html>
