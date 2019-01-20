@@ -20,7 +20,7 @@ html, body {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;}
 .main_testimonial_area {
-    background: url(testbg.jpg) no-repeat top center;background-size: cover;
+    background: url(../../../img/portal/home/information.jpg) no-repeat top center;background-size: cover;
     position: relative;}
 .overlay {
     background: rgba(233, 0, 0, 0.8);
