@@ -14,10 +14,12 @@
     <link rel="stylesheet" type="text/css" href="../../static/css/fonts_zui.css">
     <link rel="stylesheet" href="../../static/css/skin/portal/xygj.css">
     <link rel="stylesheet" href="../../static/css/lightslider.min.css">
+    <link href="../../static/css/font-awesome.min.css" rel="stylesheet" media="screen and (max-width:500px)">
+    <link href="../../static/css/mobile/m_home/theme.css" rel="stylesheet" media="screen and (max-width:500px)">
+    <link href="../../static/css/mobile/m_home/settings.css" rel="stylesheet" media="screen and (max-width:500px)">
     <title>清泽心雨 - 校园广角</title>
     <!--[if lt IE 10]><div class="alert2 alert-danger" >您正在使用过时的浏览器. 请升级您的浏览器来获取更好的体验<a class="icon-ie updateexplor" href="http://download.microsoft.com/download/F/2/8/F2871AC4-E82B-4636-BB37-A5F2B14C8616/IE11-Windows6.1-x86-zh-cn.exe" >x86版本</a ><a class="icon-ie updateexplor" href="http://download.microsoft.com/download/5/6/F/56FD6253-CB53-4E38-94C6-74367DA2AB34/IE11-Windows6.1-x64-zh-cn.exe" >x64版本</a ></div ><script src="//qzxy.tyut.edu.cn/static/lib/ieonly/html5shiv.js" ></script ><script src="//qzxy.tyut.edu.cn/static/lib/ieonly/respond.js" ></script ><![endif]-->
     <script src="../../static/lib/jquery/jquery.js"></script>
-    <script src="../../static/js/jquery.js"></script>
     <script src="../../static/js/lightslider.min.js"></script>
 </head>
 
@@ -35,20 +37,12 @@
                                             <li class="clone left" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/7ccabff2301cd699df06e1f731f6c753.jpg"></li>
                                             <li class="lslide" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/12e8faa50e7703759fa000cf68e44ede.jpg"></li>
                                             <li class="lslide active" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/d04552494c11e959bbe7ba94eb75bcca.jpg"></li>
-                                            <li class="lslide" style="width: 736px; margin-right: 0px;"><img src=../..n/data/catch/temp/img/20180411/8d80a268c126239f288adc0aaa08e2cd.jpg"></li>
+                                            <li class="lslide" style="width: 736px; margin-right: 0px;"><img src=../../data/catch/temp/img/20180411/8d80a268c126239f288adc0aaa08e2cd.jpg"></li>
                                             <li class="lslide" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/7ad46f555c30792665c61decdcc33fd3.jpg"></li>
                                             <li class="lslide" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/7ccabff2301cd699df06e1f731f6c753.jpg"></li>
                                             <li class="clone right" style="width: 736px; margin-right: 0px;"><img src="../../data/catch/temp/img/20180411/12e8faa50e7703759fa000cf68e44ede.jpg"></li>
                                         </ul>
-                                        <!-- <div class="lSAction"><a class="lSPrev"></a><a class="lSNext"></a></div> -->
                                     </div>
-                                    <!-- <ul class="lSPager lSpg opacity" style="margin-top: 5px;">
-                                        <li class=""><a href="#">1</a></li>
-                                        <li class="active"><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">5</a></li>
-                                    </ul> -->
                                 </div>
                                 <script>
                                     $(document).ready(function () {
@@ -93,6 +87,71 @@
             </div>
         </div>
     </div>
+    <!--移动端-->
+    <div id="m_main">
+        <div class="fullwidthbanner-container">
+            <div class="fullwidthbanner">
+                <ul id="m_img_link">
+                    <li data-transition="slideright">
+                        <img src="../../data/catch/temp/img/20180411/7ccabff2301cd699df06e1f731f6c753.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideleft">
+                        <img src="../../data/catch/temp/img/20180411/12e8faa50e7703759fa000cf68e44ede.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideleft">
+                        <img src="../../data/catch/temp/img/20180411/d04552494c11e959bbe7ba94eb75bcca.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slidedown">
+                        <img src=../../data/catch/temp/img/20180411/8d80a268c126239f288adc0aaa08e2cd.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideup">
+                        <img src="../../data/catch/temp/img/20180411/7ad46f555c30792665c61decdcc33fd3.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../static/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.themepunch.plugins.min.js"></script>
+    <script>
+        //清泽专题轮播图
+        $(document).ready(function () {
+            if ($.fn.cssOriginal != undefined)
+                $.fn.css = $.fn.cssOriginal;
+            $('.fullwidthbanner').revolution({
+                delay: 9000,
+                startwidth: 1170,
+                startheight: 420,
+                onHoverStop: "on",
+                navigationType: "none",
+                soloArrowLeftHOffset: 0,
+                soloArrowLeftVOffset: 0,
+                soloArrowRightHOffset: 0,
+                soloArrowRightVOffset: 0,
+                touchenabled: "on",
+                fullWidth: "on",
+                shadow: 0
+            });
+        });
+        //]]>
+    </script>
+    <script>
+        $(document).ready(function () {
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth > setWidth) {
+                $("#m_main").css("display", "none");
+            } else {
+                $(".o__main").css("display", "none");
+            }
+        })
+    </script>
 </body>
 
 </html>
