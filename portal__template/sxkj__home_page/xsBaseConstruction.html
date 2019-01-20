@@ -23,7 +23,7 @@
     <div class="o__main">
         <div class="xskj">
             <div class="container">
-                <section class="xsBaseConstruction">
+                <section class="xsBaseConstruction" id="m_xsBaseConstruction">
                     <div class="xsBaseConstruction">
                         <div class="fullBox">
                             <div class="fullColumnName"><a>基地建设</a></div>
@@ -50,6 +50,15 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function(){
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth < setWidth) {
+                $("#m_xsBaseConstruction").css("display", "none");
+            }
+        })
+    </script>
 </body>
 
 </html>

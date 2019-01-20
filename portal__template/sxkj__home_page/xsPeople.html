@@ -23,7 +23,7 @@
     <div class="o__main">
         <div class="xskj">
             <div class="container">
-                <section class="xsPeople">
+                <section class="xsPeople" id="m_xsPeople">
                     <div class="xsPeople">
                         <div class="fullBox">
                             <div class="fullColumnName"><a>风云人物</a></div>
@@ -36,6 +36,15 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth < setWidth) {
+                $("#m_xsPeople").css("display", "none");
+            }
+        })
+    </script>
 </body>
 
 </html>

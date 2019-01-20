@@ -23,7 +23,7 @@
     <div class="o__main">
         <div class="xskj">
             <div class="container">
-                <section class="xsTeacher">
+                <section class="xsTeacher" id="xsTeacher">
                     <div class="xsTeacher">
                         <div class="fullBox">
                             <div class="fullColumnName"><a>师资队伍</a></div>
@@ -34,6 +34,15 @@
             </div>
         </div>
     </div>
+    <script>
+            $(document).ready(function () {
+                let clientWidth = $(window).width();
+                let setWidth = 500;
+                if (clientWidth < setWidth) {
+                    $("#xsTeacher").css("display", "none");
+                }
+            })
+        </script>
 </body>
 
 </html>

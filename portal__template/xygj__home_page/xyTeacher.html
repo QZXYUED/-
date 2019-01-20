@@ -25,7 +25,7 @@
         <div class="o__main">
                 <div class="xygj">
                         <div class="container">
-                                <section class="xyTeacher">
+                                <section class="xyTeacher" id="m_xyTeacher">
                                         <div class="xyTeacher">
                                                 <div class="sliderItem_7">
                                                         <div class="fullBox">
@@ -180,6 +180,15 @@
                         </div>
                 </div>
         </div>
+        <script>
+                $(document).ready(function () {
+                        let clientWidth = $(window).width();
+                        let setWidth = 500;
+                        if (clientWidth < setWidth) {
+                                $("#m_xyTeacher").css("display", "none");
+                        }
+                })
+        </script>
 </body>
 
 </html>
