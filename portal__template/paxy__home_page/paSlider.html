@@ -21,6 +21,9 @@
     <script src="../../static/js/lightslider.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../static/css/skin/portal/paxy.css">
     <link rel="stylesheet" href="../../static/css/lightslider.min.css">
+    <link href="../../static/css/font-awesome.min.css" rel="stylesheet" media="screen and (max-width:500px)">
+    <link href="../../static/css/mobile/m_home/theme.css" rel="stylesheet" media="screen and (max-width:500px)">
+    <link href="../../static/css/mobile/m_home/settings.css" rel="stylesheet" media="screen and (max-width:500px)" />
 </head>
 
 <body>
@@ -104,6 +107,71 @@
             </div>
         </div>
     </div>
+    <!--移动端-->
+    <div id="m_main">
+        <div class="fullwidthbanner-container">
+            <div class="fullwidthbanner">
+                <ul id="m_img_link">
+                    <li data-transition="slideright">
+                        <img src="../../static/img/common/no-img-1.svg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideleft">
+                        <img src="../../static/img/common/no-img-1.svg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideleft">
+                        <img src="../../data/catch/temp/img/20180419/bdcafa4a2e2c6773d733bc4addf65ac9.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slidedown">
+                        <img src="../../data/catch/temp/img/20180419/2437adb7f7fe030900c201f6df7eaef4.jpg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                    <li data-transition="slideup">
+                        <img src="../../static/img/common/no-img-1.svg" alt="" />
+                        <div class="m_img_cover"></div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../static/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.themepunch.plugins.min.js"></script>
+    <script>
+        //清泽专题轮播图
+        $(document).ready(function () {
+            if ($.fn.cssOriginal != undefined)
+                $.fn.css = $.fn.cssOriginal;
+            $('.fullwidthbanner').revolution({
+                delay: 9000,
+                startwidth: 1170,
+                startheight: 420,
+                onHoverStop: "on",
+                navigationType: "none",
+                soloArrowLeftHOffset: 0,
+                soloArrowLeftVOffset: 0,
+                soloArrowRightHOffset: 0,
+                soloArrowRightVOffset: 0,
+                touchenabled: "on",
+                fullWidth: "on",
+                shadow: 0
+            });
+        });
+        //]]>
+    </script>
+    <script>
+        $(document).ready(function () {
+            let clientWidth = $(window).width();
+            let setWidth = 500;
+            if (clientWidth > setWidth) {
+                $("#m_main").css("display", "none");
+            } else {
+                $(".o__main").css("display", "none");
+            }
+        })
+    </script>
 </body>
 
 </html>
