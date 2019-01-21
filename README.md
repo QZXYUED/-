@@ -5,7 +5,8 @@ _清泽心雨网站是太原理工大学学生工作的门户网站_ &emsp;详�
   * 改版工作前请详细阅读此文档
   * 站员创建GitHub账号申请加入GIT--QZXYUED团队(地址：https://github.com/QZXYUED) 项目地址（https://github.com/QZXYUED/-）
   * 每次上传自己所负责的模块
-
+#手机测试地址
+  模块测试地址为[测试](101.7.159.134/template)
 # 站点
   网站站点为 [太原理工大学清泽心雨](http://qzxy.tyut.edu.cn/portal.html)
   <br>
