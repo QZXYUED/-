@@ -1,3 +1,7 @@
+body{
+    background: #fdf7f7!important;
+}
+
 .leftBox{
     margin: 0 auto!important;
     width: 94%!important;
@@ -63,6 +67,7 @@ ul{
 ul,li{
     display: block!important;
 }
+
 
 ul{
     margin-top:48px!important;
