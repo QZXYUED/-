@@ -10,6 +10,10 @@ img{
     margin-right: auto;
 }
 
+a{
+    text-decoration:none;
+}
+
 .bg-img{
     width: 305px;
     height: 200px;
