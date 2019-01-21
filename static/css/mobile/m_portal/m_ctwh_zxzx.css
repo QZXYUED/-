@@ -1,24 +1,8 @@
-*{margin:0;padding: 0}
-html, body {
-    background-color: #fff;
-    font-size: 14px;
-    color: #231f20;
-    width: 100%;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 300;
-}
 .main_figur {
     width: 100%;
     overflow: hidden;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;}
 .main_testimonial_area {
     background: url(testbg.jpg) no-repeat top center;background-size: cover;
     position: relative;}
