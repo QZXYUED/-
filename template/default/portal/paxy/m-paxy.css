@@ -1,3 +1,8 @@
+.bannerImgBox img{
+    min-width:0;
+}
+
+/*-----最新资讯*/
 .main_figur {
     width: 100%;
     overflow: hidden;
@@ -154,4 +159,16 @@ h6 {
     line-height: 40px;
     font-size: 16px;
     font-weight: 400;
+}
+.o__main .container {
+    padding:0;
+    width:auto;
+}
+/*----食品安全--*/
+.o__main .leftBox .leftColumnContent .leftCardBox {
+    display: block;
+}
+
+.paEating .rightList, .paTransporting .rightList {
+    display: none;
 }
