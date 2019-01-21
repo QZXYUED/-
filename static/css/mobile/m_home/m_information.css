@@ -5,12 +5,21 @@ html, body {
     color: #231f20;
     width: 100%;
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin:0;
     font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     font-weight: 300;
+}
+/*-----main--------*/
+.main{
+    padding: 0 0;
+    background: #fdf7f7;
+}
+
+.main .container{
+    padding: 0;
+    margin: 0;
 }
 .main_figur {
     width: 100%;
@@ -154,4 +163,36 @@ h6 {
 }
 .messageItem{
     padding: 1.5rem 0;
+}
+
+/*---------main----专题*/
+.qzSubject .container{
+    width:auto;
+}
+
+.qzSubject .columnName{
+    margin-left: 30px;
+}
+
+.main .container .qzSubject .columnContainer .subjectItem {
+    display:block;
+    margin:10px 0;
+    max-width: 100%;
+}
+
+/*----------main---微视*/
+.qzVideo .columnName{
+    margin-left: 30px;
+}
+
+.qzVideo .service a{
+    padding-left: 20px;
+}
+
+.qzVideo .serviceItem h3{
+    font-size: 18px !important;
+}
+
+.main .container .qzVideo .columnContainer .service a .serviceItem {
+    border-radius: 20px;
 }
