@@ -172,3 +172,32 @@ h6 {
 .paEating .rightList, .paTransporting .rightList {
     display: none;
 }
+
+.paEating{
+    background:#f7f9fc;
+}
+
+div.paEating{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.o__main .fullBox .fullColumnName a, .o__main .leftBox .leftColumnName a {
+    font-size: 26px;
+    color:#090ad2;
+    margin-left: 20px;
+}
+
+.o__main .leftBox .leftColumnContent .leftCardBox:first-child {
+    margin-bottom: 50px;
+}
+
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem:first-child {
+    border-bottom:none;
+}
+
+.o__main .fullBox .fullColumnName, .o__main .leftBox .leftColumnName {
+    border-bottom: none;
+}
+
