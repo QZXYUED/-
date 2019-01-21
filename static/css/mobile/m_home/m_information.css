@@ -26,6 +26,14 @@ html, body {
     overflow: hidden;
 }
 
+.columnName > a:first-child {
+    font-size: 2.2rem !important;
+}
+
+div.qzNews {
+    padding: 40px 0 0 0;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;}
 .main_testimonial_area {

@@ -122,11 +122,6 @@
 	margin-bottom: 1px;
 	height: 3rem;
 	display: inline-block;
-	border-bottom: 0.2rem solid rgb(185, 6, 10);
-}
-.columnName > a:first-child:hover {
-	color: rgb(123, 19, 0);
-    text-decoration: underline;
 }
 .columnName .more {
 	font-size: 12px;
@@ -154,7 +149,7 @@
 	background: #fef7f8;
 }
 div.qzNews {
-	padding: 44px 0;
+	padding: 120px 0 0 0;
 }
 .qzNews .container .columnName {
     margin-left: 4px;
@@ -266,7 +261,7 @@ div.qzNews {
 }
 /*main部分(中间三个)*/
 .main {
-	padding: 44px 0;
+	padding: 120px 0 0 0;
 }
 /* 信息中心 (qzMessage) */
 .main .container .qzMessage {
@@ -568,7 +563,7 @@ div.qzNews {
 	.main .container .qzVideo {
 		width: 100%;
 		float: none;
-		margin-top: 44px;
+		margin-top: 40px;
 	}
 	.main .container .qzVideo .columnContainer .videoNews .videoNews_pic,
 	.main .container .qzVideo .columnContainer .videoNews .videoNews_pic:first-child + .videoNews_pic {
@@ -765,7 +760,7 @@ div.qzNews {
 	}
 	.main .container .qzVideo .columnContainer .service {
 		width: 80%;
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 	.main .container .qzVideo .columnContainer .service a .serviceItem {
 		width: 130px;
@@ -840,7 +835,7 @@ div.qzNews {
 
 /*校园风光 (qzSights)*/
 div.qzSights {
-	padding: 44px 0;
+	padding: 120px 0;
 }
 .qzSights .container .columnContainer > a {
 	display: inline-block;
