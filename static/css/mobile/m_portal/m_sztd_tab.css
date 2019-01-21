@@ -1,0 +1,96 @@
+body,
+div,
+h1,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.szExploration {
+    width: 100%;
+    background: #c6252b;
+}
+
+.m_container {
+    width: 96%;
+    margin: 0 auto;
+    background: url(../../../img/portal/sztd/start_2x.png) no-repeat;
+}
+
+.m_title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.m_title_line {
+    width: 200px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.m_title_p {
+    font-size: 30px;
+    background: #c6252b;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    margin-left: 28%;
+    padding: 0 10px;
+}
+
+.rightColumnName {
+    height: 30px;
+    width: 100%;
+}
+
+.m_tab {
+    margin-top: 50px;
+}
+
+.rightColumnName span {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    background:#c6252b;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 42px;
+}
+
+.m_tab .rightListContent {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    background: #d65c60a1;
+    padding: 20px 10px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.m_tab .rightListContent li {
+    margin-top: 12px;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.span_open{
+    background: #d65c60a1 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
