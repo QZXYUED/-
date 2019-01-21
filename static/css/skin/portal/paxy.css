@@ -163,7 +163,6 @@
 	font-weight: 600;
 	letter-spacing: 4px;
 	color: #4c4c4c;
-	border-bottom: 1px solid #4c4c4c;
 }
 .o__main .fullBox .fullColumnName a:hover,
 .o__main .leftBox .leftColumnName a:hover {
@@ -357,6 +356,7 @@ div.paEating {
 	width: 160px;
 	height: 120px;
 	background-color: #f5f5f5;
+	border-radius: 16px;
 }
 .o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardIntro {
 	margin-left: 18px;
