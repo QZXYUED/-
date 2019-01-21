@@ -10,6 +10,10 @@ img{
     margin-right: auto;
 }
 
+a{
+    text-decoration:none;
+}
+
 .bg-img{
     width: 305px;
     height: 200px;
@@ -28,7 +32,7 @@ img{
     color: #423d3d;
 }
 
-.interLinkage{
+.interlinkage{
     color: #7d2323;
 }
 
