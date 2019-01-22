@@ -67,12 +67,14 @@ a:hover{
 
 .listContentItem .itemInfoFooter .index-panel-prise-info{
     display: inline-block;
-    margin-left: 57%;
+    right：1%;
     margin-top: 20px;
+    position: absolute;
 }
 
 .listContentItem .index-panel-time{
     display: inline-block;
+    margin-top: 20px;
 }
 
 .listContentItem .itemInfoFooter .index-panel-prise-img{
