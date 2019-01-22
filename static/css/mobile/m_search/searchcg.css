@@ -14,7 +14,7 @@ body{
     width: 100%;
     height:40px;
     padding-bottom: 20px;
-    padding-left: 2%;
+    padding-left: 4%;
     display:inline-block;
     position: relative;
     margin-top: 20px;
@@ -39,7 +39,7 @@ body{
     display:inline-block;
     width:22%;
     height:50px;
-    background: #fdf7f7;
+    background: #fff;
     border-color:black;
     border-width: 2px;
     border-left: 0px !important;
@@ -49,7 +49,7 @@ body{
     border-bottom-right-radius: 10px;
     color:red;
     font-size:26px;
-    font-weight: bold;
+    padding-left: 10px;
 }
 .listRightItem__coverimg
 {
@@ -91,6 +91,7 @@ hr{
     width: 100%;
     margin-top: 7px;
     margin-bottom: 7px;
+    background:#eeeeee;
 }   
 .m__date
 {
@@ -131,25 +132,16 @@ hr{
     width: 34%;
     height: 40px;
     background: #fdf7f7;
-    margin-left: 6%;
-    border-radius:4px;
+    margin-left: 5%;
+    border-radius:6px;
     border-width: 1px; 
     font-size:16px; 
-    border: 2px solid #fdf7b3;
-    margin-bottom:20px;
+    border: 2px solid #664712;
+    margin-bottom:40px;
+    margin-top: 20px;
+    color:#412705;
 }
-.bottomtwo
-{
-    width: 34%;
-    height: 40px;
-    background: #fdf7f7;
-    margin-right: 6%;
-    float:right;
-    border-radius: 10px;
-    border-width: 1px;
-    border: 2px solid #fdf7b3;
-    font-size:16px; 
-}
+
 .spaner
 {
     padding-left:4%;
