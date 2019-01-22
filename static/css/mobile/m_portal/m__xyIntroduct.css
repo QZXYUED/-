@@ -1,0 +1,144 @@
+.o__main .fullBox .fullColumnName a, .o__main .leftBox .leftColumnName a{
+    text-align: left;
+}
+.o__main .fullBox .fullColumnContent, .o__main .leftBox .leftColumnContent{
+    margin-top: 48px!important;
+}
+.mobile-header{
+    font-size: 26px;
+}
+.o__main .fullBox .fullColumnName a, .o__main .leftBox .leftColumnName a{
+    border-bottom: none !important;
+}
+.o__main .container{
+    background-color: #f9fcf7;
+    width: 100% !important;
+}
+.o__main .leftBox .leftColumnContent .leftListBox ul li a{
+    font-size: 16px;
+}
+.o__main .fullBox .fullColumnName, .o__main .leftBox .leftColumnName{
+    margin: 0 auto ;
+    margin-top: 40px;
+    border-bottom: none  !important;
+}
+.o__main .fullBox .fullColumnName a, .o__main .leftBox .leftColumnName a{
+    font-size: 26px !important;
+    position: absolute;
+    left: 36%;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardCoverimg img{
+    border-radius: 10px;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox, .o__main .leftBox .leftColumnContent .leftListBox{
+    margin-left: 0;
+    margin-top: 50px;
+    display: block !important;
+}
+
+.o__main .fullBox .fullColumnName, .o__main .leftBox .leftColumnName{
+    text-align: center;
+}
+.left-l{
+    border-top: #0f0f0f 1px solid;
+    position: absolute;
+    left: 16%;
+    top: 58px;
+    width: 60px;
+    display: inline-block;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem{
+    width: 100% !important;
+    height: 210px;
+}
+
+.right-l{
+    border-top: #0f0f0f 1px solid;
+    position: absolute;
+    left: 70%;
+    top: 58px;
+    width: 60px;
+    display: inline-block;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox, .o__main .leftBox .leftColumnContent .leftListBox{
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+}
+
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardIntro{
+    background-color: #1b1b1b;
+    width: 94%!important;
+    margin-right:0 !important;
+    margin-bottom: 0 !important;
+    height: 30px;
+    position: relative;
+    margin-left: 3%;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    top: -32px;
+    opacity: 0.5;
+    z-index: 2;
+    text-align: left !important;
+    color: white !important;
+    display: block;
+}
+.o__main .rightList .rightListBox .rightColumnName{
+    width: 100% !important;
+}
+
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardIntro .Intro_tit{
+    margin-right:0 !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    top: 5px;
+    text-align: left !important;
+    color: white !important;
+    display: block;
+    font-size: 18px;
+    max-width: none;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem:first-child{
+    padding-bottom: 0 !important;
+}
+
+.o__main .leftBox{
+    width:100%;
+    background-color: #f9fcf7 !important;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardCoverimg img{
+    margin: 0 auto;
+    height: 210px;
+    width: 94% !important;
+}
+.o__main .leftBox .leftColumnContent .leftCardBox .leftCardItem .CardIntro .Intro_des{
+    display: none !important;
+}
+.o__main .rightList .rightListBox .rightColumnName span{
+    font-size: 26px;
+}
+.o__main .rightList .rightListBox .rightListContent{
+    background-color:#4b794e ;
+}
+.o__main .rightList .rightListBox .rightListContent ul li a{
+    color: #f9fcf7 ;
+    font-size: 16px;
+}
+div.xyIntroduct{
+    padding-bottom: 60px !important;
+}
+.mobile-header{
+    position: absolute;
+    left: 40%;
+}
+.o__main .container{
+    padding: 0 0 !important;
+}
+.leftCardItem1{
+    display: none;
+}
+
+.o__main .rightList {
+    margin-left: 0;
+    width: 100% !important;
+
+}
