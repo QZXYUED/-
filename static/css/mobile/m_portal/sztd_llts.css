@@ -1,0 +1,116 @@
+.phoneNone{
+    display: none;
+}
+
+body{
+    background: #c6252b;
+}
+
+.star_llts{
+    position: absolute;
+    bottom: 440px;
+    width: 150px;
+    height: 128px;
+}
+
+.leftBox{
+    width: 96%;
+    margin: 0 auto;
+    
+}
+
+.left-l{
+    border-top: #d48a8d 1px solid;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    width: 60px;
+    display: inline-block;
+}
+
+.right-l{
+    border-top: #d48a8d 1px solid;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    width: 60px;
+    display: inline-block;
+}
+
+
+.leftBox .leftColumnName{
+    text-align: center;
+}
+
+.leftBox .leftColumnName b{
+    font-size: 26px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.leftBox  .leftColumnContent  .leftCardBox .leftCardItem .CardCoverimg{
+    display: block;
+    background: url(../../../img/portal/gxyx/GXruimenSM.png) no-repeat center center;
+    background-size: contain;
+    width: 98%;
+    height: 200px;/*在宽度呈百分比时，图片大小由高度决定，图片不同，高度不同*/
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 3.7px;
+    
+    
+    
+}
+
+.leftBox .leftColumnContent{
+    width: 98%;
+    background: rgba(238, 238, 238, 0.15);
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 10.4px;
+}
+
+.leftBox  .leftColumnContent  .leftCardBox  .CardIntro{
+    background: #1b1b1b;
+    width: 98%;
+    height: 34px;/**/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -34px;/*遮罩层上移的高度*/
+}
+
+.leftBox  .leftColumnContent  .leftCardBox  .CardIntro .Intro_tit{
+    font-size: 20px;
+    color: #fdf7f7;
+    margin-left: 12px;
+}
+
+.leftListBox ul,li{
+    list-style: none;
+    
+    padding: 0;
+
+}
+
+.leftListBox li{
+    margin-bottom: 20px;
+}
+
+.leftListBox li a{
+    color: #fdf7f7;
+    font-size: 16px;
+}
+
+.leftListBox ul{
+    margin-top:26px;
+    margin-bottom: 32px ;
+    margin-left: 3%;
+}
+
+a{
+    text-decoration: none;
+}
