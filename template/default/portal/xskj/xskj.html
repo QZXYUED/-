@@ -500,26 +500,15 @@
             let clientWidth = $(window).width();
             let setWidth = 500;
             if (clientWidth > setWidth) {
-                $("#m_main").css("display", "none");
-                $("#m_zxzx").css("display", "none");
-                $("#m_kjjs").css("display", "none");
-                $("#m_xsCompetition").css("display", "none");
-                $("#m_xsCompetiton_teach").css("display", "none");
-                $("#m_kjcg").css("display","none");
+                $("#m_main,#m_zxzx,#m_kjjs,#m_xsCompetition,#m_xsCompetiton_teach,#m_kjcg").css("display", "none");
             } else {
-                $("#xsSlider").css("display", "none");
-                $(".o__nav").css("display", "none");
-                $("#xsCompetition").css("display", "none");
-                $("#m_xsBaseConstruction").css("display", "none");
-                $("#xsTeacher").css("display", "none");
-                $("#m_xsPeople").css("display", "none");
+                $("#xsSlider,.o__nav,#xsCompetition,#m_xsBaseConstruction,#xsTeacher,#m_xsPeople").css("display", "none");
             }
 
             $(".rightColumnName").children("span").click(function () {
                 let i = $(this).index();
                 $(this).addClass("span_open").siblings().removeClass("span_open");
-                $("#rightListContent ul").eq(i).show().siblings().hide();
-                $("#rightContentImg li").eq(i).show().siblings().hide();
+                $("#rightListContent ul,#rightContentImg li").eq(i).show().siblings().hide();
             })
         })
     </script>
